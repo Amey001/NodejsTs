@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist",
+    "rootDir": "./src",
+    "strict": true,
+    "baseUrl": "src", // Specify the base directory for module resolution
+    "paths": {
+      "*": ["*"]
+    }
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"],
+  "types": ["mongoose"]
+}
